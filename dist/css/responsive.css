@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 820px; } }
+
+@media only screen and (max-width: 992px) {
+  #navbar .container {
+    flex-direction: column;
+    align-items: center; }
+    #navbar .container .logo .second-logo {
+      text-align: center; }
+    #navbar .container .nav-links {
+      margin-bottom: 10px; }
+  #jumbotron .opener-text {
+    text-align: center; }
+    #jumbotron .opener-text p {
+      width: unset !important; }
+  #about .container {
+    margin-top: -200px !important; }
+    #about .container .info-panel {
+      flex-direction: column; }
+      #about .container .info-panel .about-me {
+        margin: 0 10px !important; }
+        #about .container .info-panel .about-me p {
+          margin-top: 20px !important; }
+        #about .container .info-panel .about-me img {
+          display: none !important; }
+      #about .container .info-panel .skills {
+        margin: 20px 10px 0 !important; }
+        #about .container .info-panel .skills img {
+          display: none !important; }
+        #about .container .info-panel .skills h2 {
+          margin-bottom: 20px !important; } }
+
+@media only screen and (max-width: 768px) {
+  #navbar .container .auth ul li {
+    padding: 4px !important;
+    font-size: 14px !important; }
+  #jumbotron {
+    background-size: 300px !important;
+    background-position: top 100px center !important; }
+    #jumbotron .opener-text h1 {
+      font-size: 34px !important; }
+    #jumbotron .opener-text p {
+      font-size: 14px !important; }
+    #jumbotron .opener-text a {
+      padding: 4px !important;
+      font-size: 14px !important; }
+  #about .container {
+    margin-top: -230px !important; } }
+
+@media only screen and (max-width: 480px) {
+  #jumbotron .opener-text h1 {
+    font-size: 24px !important; } }
+
+@media only screen and (max-width: 320px) {
+  #navbar .container .nav-links li {
+    margin: 0 5px !important; } }

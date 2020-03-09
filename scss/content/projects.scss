@@ -1,0 +1,118 @@
+#projects .container {
+    margin-top: 100px;
+    h1 {
+        text-align: center;
+        color: $text-head;
+    
+        &:after {
+            content: '';
+            background: $text-head;
+            display: block;
+            height: 3px;
+            width: 230px;
+            margin: 10px auto 20px;
+        }
+    }
+
+    .navbar-project {
+        width: 600px;
+        height: 100px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 0 0 20px $secondary-color;
+
+        .tab-item {
+            cursor: pointer;
+            transition: ease-in-out .3s;
+
+            &:hover {
+                transform: scale(120%);
+            }
+
+            &.active {
+                transform: scale(120%);
+            }
+        }
+
+        #tab-1 {
+            img {
+                display: block;
+                width: 50px;
+                margin: 5px auto 0;
+            }
+
+            h4 {
+                text-align: center;
+                color: $text-head;
+                margin-top: 5px;
+            }
+        }
+
+        #tab-2 {
+            img {
+                display: block;
+                width: 60px;
+                margin: 5px auto 0;
+                margin-top: -1px;
+            }
+
+            h4 {
+                text-align: center;
+                color: $text-head;
+                margin-top: -1px;
+            }
+        }
+
+        #tab-3 {
+            img {
+                display: block;
+                width: 70px;
+                margin: 5px auto 0;
+                margin-top: -1px;
+            }
+
+            h4 {
+                text-align: center;
+                color: $text-head;
+                margin-top: -1px;
+            }
+        }
+    }
+
+    .project-item {
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+        box-shadow: 0 0 20px $secondary-color;
+        position: relative;
+        
+        .content-item {
+            width: 100%;
+            height: 460px;
+            visibility: hidden;
+            transition: ease-in-out 1s;
+            transform: scale(0%);
+            position: absolute;
+
+            &.show {
+                visibility: visible;
+                transform: scale(100%);
+                top: 20px;
+            }
+
+            .thumbnail {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 20px;
+                justify-content: space-evenly;
+                a {
+                    img {
+                        width: 200px;
+                        margin: 10px 10px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+#jumbotron {
+    background-image: url(../img/undraw_code_typing_7jnv.svg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: top 100px right 270px;
+    height: 600px;
+    .opener-text {
+        h1 {
+            font-size: 52px;
+            color: $text-head;
+            margin-top: 10vh;
+        }
+
+        p {
+            font-size: 17px;
+            color: $text-body;
+            margin: 10px 0 26px;
+            width: 550px;
+        }
+
+        a {
+            background: $secondary-color;
+            padding: 6px;
+            border-radius: 3px;
+            color: $text-color;
+
+            &:hover {
+                box-shadow: 0 0 5px $secondary-color;
+            }
+        }
+    }
+}

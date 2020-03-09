@@ -1,0 +1,22 @@
+#about .container {
+  margin-top: -100px; }
+  #about .container h1 {
+    text-align: center; }
+    #about .container h1:after {
+      content: '';
+      background: #000;
+      display: block;
+      height: 3px;
+      width: 170px;
+      margin: 15px auto 5px; }
+  #about .container .info-panel {
+    display: flex;
+    justify-content: space-between; }
+    #about .container .info-panel .about-me {
+      border: 1px solid #000;
+      width: 38vw;
+      height: 300px; }
+    #about .container .info-panel .skills {
+      border: 1px solid #000;
+      width: 38vw;
+      height: 300px; }
