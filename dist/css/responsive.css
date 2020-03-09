@@ -29,7 +29,28 @@
         #about .container .info-panel .skills img {
           display: none !important; }
         #about .container .info-panel .skills h2 {
-          margin-bottom: 20px !important; } }
+          margin-bottom: 20px !important; }
+  #projects .container .navbar-project {
+    width: 500px !important;
+    height: 70px !important; }
+  #projects .container #tab-1 img {
+    width: 30px !important;
+    margin: 7px auto 0 !important; }
+  #projects .container #tab-1 h4 {
+    font-size: 12px; }
+  #projects .container #tab-2 img {
+    width: 38px !important;
+    margin: 4px auto 0 !important; }
+  #projects .container #tab-2 h4 {
+    font-size: 12px; }
+  #projects .container #tab-3 img {
+    width: 45px !important;
+    margin: 3px auto 0 !important; }
+  #projects .container #tab-3 h4 {
+    font-size: 12px; }
+  #projects .container .project-item {
+    width: 97.5% !important;
+    margin: 0 auto; } }
 
 @media only screen and (max-width: 768px) {
   #navbar .container .auth ul li {
@@ -46,12 +67,43 @@
       padding: 4px !important;
       font-size: 14px !important; }
   #about .container {
-    margin-top: -230px !important; } }
+    margin-top: -230px !important; }
+  #projects .container .navbar-project {
+    width: 350px !important; }
+  #projects .container .project-item {
+    height: 700px !important; }
+  #contact .container .contact-wrapper {
+    width: 500px !important; }
+  #footer .container .wrap-footer {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center; }
+    #footer .container .wrap-footer .navigation {
+      margin-top: 20px !important; }
+      #footer .container .wrap-footer .navigation h4 {
+        margin-bottom: 10px !important; }
+    #footer .container .wrap-footer .tools {
+      margin-top: 15px !important; }
+      #footer .container .wrap-footer .tools h4 {
+        margin-bottom: 10px !important; }
+    #footer .container .wrap-footer .contact {
+      margin-top: 15px !important; }
+      #footer .container .wrap-footer .contact h4 {
+        margin-bottom: 10px !important; }
+      #footer .container .wrap-footer .contact ul {
+        text-align: start !important; } }
 
 @media only screen and (max-width: 480px) {
   #jumbotron .opener-text h1 {
-    font-size: 24px !important; } }
+    font-size: 24px !important; }
+  #projects .container .project-item {
+    height: 1250px !important; }
+  #contact .container .contact-wrapper {
+    width: 330px !important; } }
 
 @media only screen and (max-width: 320px) {
   #navbar .container .nav-links li {
-    margin: 0 5px !important; } }
+    margin: 0 5px !important; }
+  #contact .container .contact-wrapper {
+    width: 250px !important; } }
